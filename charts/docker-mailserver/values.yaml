@@ -468,8 +468,8 @@ proxyProtocol:
 metrics:
   enabled: false
   image:
-    name: blackflysolutions/postfix-exporter@sha256
-    tag: 7ed7c0534112aff5b44757ae84a206bf659171631edfc325c3c1638d78e74f73
+    name: ghcr.io/hsn723/postfix_exporter@sha256
+    tag: 8b0994de44a9d94f8ae663ae64c470ec8eda870b673245bce92fef86afa6c6f4
     pullPolicy: "IfNotPresent"
 
   resources:
